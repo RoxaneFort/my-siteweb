@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+  text-align: center;
+  background-color: whitesmoke;
+  padding: 100px;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+h2 {
+  align-items: center;
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+a {
+  font-family: 'roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+ font-weight: 500px;
+ font-size: 16px;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+.sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.page-content {
+  margin-left: 200px;
+}
+.sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230,);
+}
+.list-inline i:hover {
+  color: black;
+}

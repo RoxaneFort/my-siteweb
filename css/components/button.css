@@ -1,0 +1,16 @@
+.btn-blue {
+  background-color: blueviolet;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+.btn-blue img {
+  align-items: center;
+  background-color: whitesmoke;
+}
